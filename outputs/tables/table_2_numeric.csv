@@ -1,0 +1,169 @@
+row,term,model,estimate,se,stars,digits
+Intercept,Intercept,1,0.33204717002400264,0.03355333482865424,***,3
+Intercept,Intercept,2,0.3316958430598207,0.03349917181500847,***,3
+Intercept,Intercept,3,0.2350080322251512,0.08943418581879327,**,3
+Intercept,Intercept,4,0.21179820730643242,0.08025342220804914,**,3
+Age,age_category,1,-0.021619901877133845,0.0014124823079052344,***,3
+Age,age_category,2,-0.022884231181725907,0.0014187438421625444,***,3
+Age,age_category,3,0.006732200508682085,0.006341098651591388,,3
+Age,age_category,4,0.006847060393009188,0.006313169644427265,,3
+Gender,gndr,1,-0.004381327582129689,0.004621235249987596,,3
+Gender,gndr,2,-0.0004163257465925429,0.00463993093639829,,3
+Gender,gndr,3,0.007165674593077982,0.016762625241842775,,3
+Gender,gndr,4,0.0069501082769911045,0.01676011604166553,,3
+Education,education_category,1,0.10821563408051635,0.001861476802281179,***,3
+Education,education_category,2,0.10598540381524388,0.0018767458228156732,***,3
+Education,education_category,3,0.10307189391145316,0.007131642524352526,***,3
+Education,education_category,4,0.10277560832815126,0.007127641236169724,***,3
+Income,hincfel,1,-0.1446075012797222,0.0032147225291813387,***,3
+Income,hincfel,2,-0.14254201853272397,0.0032215266352407846,***,3
+Income,hincfel,3,-0.1501211040243273,0.012941810314225264,***,3
+Income,hincfel,4,-0.1491332745406291,0.012959191453308087,***,3
+Political Orientation,lrscale,1,-0.07665010435831066,0.0010879958423072396,***,3
+Political Orientation,lrscale,2,-0.07708773590682294,0.001088668100672264,***,3
+Political Orientation,lrscale,3,-0.08088897328094863,0.003683296229090892,***,3
+Political Orientation,lrscale,4,-0.08113313939325842,0.0036851333212849207,***,3
+Religiosity,rlgdgr,1,0.011293569124506712,0.0008003245548986323,***,3
+Religiosity,rlgdgr,2,0.011325589142674388,0.0008000517655904853,***,3
+Religiosity,rlgdgr,3,0.0020994088743573505,0.0027538931998623063,,3
+Religiosity,rlgdgr,4,0.0020330512708620413,0.0027562034394714645,,3
+Self-Transcendence,self_transcendence,1,0.1826937480542155,0.004447662788213595,***,3
+Self-Transcendence,self_transcendence,2,0.181206752751753,0.004449080631551524,***,3
+Self-Transcendence,self_transcendence,3,0.21397200935385102,0.015781988067978335,***,3
+Self-Transcendence,self_transcendence,4,0.214460753803913,0.015778291197551003,***,3
+Conservation,conservation,1,-0.19461927744112076,0.0045145586483975935,***,3
+Conservation,conservation,2,-0.1939762675058167,0.0045135308594370736,***,3
+Conservation,conservation,3,-0.21656352495354772,0.014828149260097444,***,3
+Conservation,conservation,4,-0.21576013699083574,0.01482071314729087,***,3
+Internet Consumption,netustm_log,1,0.014382779978195766,0.002409934117297246,***,3
+Internet Consumption,netustm_log,2,0.013679792385175901,0.0024103169098427086,***,3
+Internet Consumption,netustm_log,3,0.025304036051765212,0.011495809355181583,*,3
+Internet Consumption,netustm_log,4,0.028239453510553257,0.008036534184197697,***,3
+News Consumption,nwspol_log,1,0.05747306050311935,0.0024253465774224715,***,3
+News Consumption,nwspol_log,2,0.057294279203188477,0.002424576793245083,***,3
+News Consumption,nwspol_log,3,0.05122065378556132,0.012241393985794088,***,3
+News Consumption,nwspol_log,4,0.0534435241518678,0.010106828266584772,***,3
+European Manager,C(manager_flipped)[T.2],1,,,,3
+European Manager,C(manager_flipped)[T.2],2,0.07891111366336168,0.008631138084915065,***,3
+European Manager,C(manager_flipped)[T.2],3,,,,3
+European Manager,C(manager_flipped)[T.2],4,,,,3
+Y.2018,C(essround)[T.9],1,,,,3
+Y.2018,C(essround)[T.9],2,,,,3
+Y.2018,C(essround)[T.9],3,0.04858836249490087,0.02276361293496053,*,3
+Y.2018,C(essround)[T.9],4,,,,3
+Y.2020,C(essround)[T.10],1,,,,3
+Y.2020,C(essround)[T.10],2,,,,3
+Y.2020,C(essround)[T.10],3,0.17946022656074628,0.02209767472766755,***,3
+Y.2020,C(essround)[T.10],4,,,,3
+Y.2023,C(essround)[T.11],1,,,,3
+Y.2023,C(essround)[T.11],2,,,,3
+Y.2023,C(essround)[T.11],3,0.05910279614275855,0.022781036317857502,**,3
+Y.2023,C(essround)[T.11],4,,,,3
+Switzerland,C(cntry)[T.CH],1,,,,3
+Switzerland,C(cntry)[T.CH],2,,,,3
+Switzerland,C(cntry)[T.CH],3,,,,3
+Switzerland,C(cntry)[T.CH],4,0.18903919990323115,0.048841025587928084,***,3
+Germany,C(cntry)[T.DE],1,,,,3
+Germany,C(cntry)[T.DE],2,,,,3
+Germany,C(cntry)[T.DE],3,,,,3
+Germany,C(cntry)[T.DE],4,0.001927351403830397,0.04293799998485776,,3
+Spain,C(cntry)[T.ES],1,,,,3
+Spain,C(cntry)[T.ES],2,,,,3
+Spain,C(cntry)[T.ES],3,,,,3
+Spain,C(cntry)[T.ES],4,0.23555665259849287,0.04913815114365249,***,3
+Finland,C(cntry)[T.FI],1,,,,3
+Finland,C(cntry)[T.FI],2,,,,3
+Finland,C(cntry)[T.FI],3,,,,3
+Finland,C(cntry)[T.FI],4,0.5215766046542772,0.054186133789941957,***,3
+France,C(cntry)[T.FR],1,,,,3
+France,C(cntry)[T.FR],2,,,,3
+France,C(cntry)[T.FR],3,,,,3
+France,C(cntry)[T.FR],4,-0.09061393395120196,0.047538774095106665,,3
+Great Britain,C(cntry)[T.GB],1,,,,3
+Great Britain,C(cntry)[T.GB],2,,,,3
+Great Britain,C(cntry)[T.GB],3,,,,3
+Great Britain,C(cntry)[T.GB],4,0.19740182568865902,0.04544455415337147,***,3
+Hungary,C(cntry)[T.HU],1,,,,3
+Hungary,C(cntry)[T.HU],2,,,,3
+Hungary,C(cntry)[T.HU],3,,,,3
+Hungary,C(cntry)[T.HU],4,-0.47819260280516784,0.05742889813348762,***,3
+Ireland,C(cntry)[T.IE],1,,,,3
+Ireland,C(cntry)[T.IE],2,,,,3
+Ireland,C(cntry)[T.IE],3,,,,3
+Ireland,C(cntry)[T.IE],4,0.3835302320286786,0.045508868816247904,***,3
+Iceland,C(cntry)[T.IS],1,,,,3
+Iceland,C(cntry)[T.IS],2,,,,3
+Iceland,C(cntry)[T.IS],3,,,,3
+Iceland,C(cntry)[T.IS],4,0.5458970308264876,0.05022451767105925,***,3
+Italy,C(cntry)[T.IT],1,,,,3
+Italy,C(cntry)[T.IT],2,,,,3
+Italy,C(cntry)[T.IT],3,,,,3
+Italy,C(cntry)[T.IT],4,-0.307915474733641,0.052915520017690926,***,3
+Lithuania,C(cntry)[T.LT],1,,,,3
+Lithuania,C(cntry)[T.LT],2,,,,3
+Lithuania,C(cntry)[T.LT],3,,,,3
+Lithuania,C(cntry)[T.LT],4,-0.0848244453741452,0.048890510576466026,,3
+Netherlands,C(cntry)[T.NL],1,,,,3
+Netherlands,C(cntry)[T.NL],2,,,,3
+Netherlands,C(cntry)[T.NL],3,,,,3
+Netherlands,C(cntry)[T.NL],4,0.02275688481608102,0.04650000943350541,,3
+Norway,C(cntry)[T.NO],1,,,,3
+Norway,C(cntry)[T.NO],2,,,,3
+Norway,C(cntry)[T.NO],3,,,,3
+Norway,C(cntry)[T.NO],4,0.16748372774788006,0.04767915143825407,***,3
+Poland,C(cntry)[T.PL],1,,,,3
+Poland,C(cntry)[T.PL],2,,,,3
+Poland,C(cntry)[T.PL],3,,,,3
+Poland,C(cntry)[T.PL],4,0.28925167513674427,0.043813905807473456,***,3
+Portugal,C(cntry)[T.PT],1,,,,3
+Portugal,C(cntry)[T.PT],2,,,,3
+Portugal,C(cntry)[T.PT],3,,,,3
+Portugal,C(cntry)[T.PT],4,0.2513384120160044,0.057418617272741945,***,3
+Sweden,C(cntry)[T.SE],1,,,,3
+Sweden,C(cntry)[T.SE],2,,,,3
+Sweden,C(cntry)[T.SE],3,,,,3
+Sweden,C(cntry)[T.SE],4,0.13415547373404016,0.048664096093902355,**,3
+Slovenia,C(cntry)[T.SI],1,,,,3
+Slovenia,C(cntry)[T.SI],2,,,,3
+Slovenia,C(cntry)[T.SI],3,,,,3
+Slovenia,C(cntry)[T.SI],4,-0.2390455610134916,0.053674929164006804,***,3
+Level 1: Residual,scale,1,0.5955904500894534,,,3
+Level 1: Residual,scale,2,0.5951741006673575,,,3
+Level 1: Residual,scale,3,0.5509288010457872,,,3
+Level 1: Residual,scale,4,0.5523078627908842,,,3
+Level 2: Country-Year,country_year Var,1,0.06499972238589502,0.014264118484114727,,3
+Level 2: Country-Year,country_year Var,2,0.06474936918321206,0.01421949419117809,,3
+Level 2: Country-Year,country_year Var,3,,,,3
+Level 2: Country-Year,country_year Var,4,,,,3
+Level 3: Country Intercept,cntry Var,1,,,,3
+Level 3: Country Intercept,cntry Var,2,,,,3
+Level 3: Country Intercept,cntry Var,3,0.07180614088143718,0.03396049728941296,,3
+Level 3: Country Intercept,cntry Var,4,,,,3
+Level 3: Country × Internet Consumption Covariance,cntry x netustm_log Cov,1,,,,3
+Level 3: Country × Internet Consumption Covariance,cntry x netustm_log Cov,2,,,,3
+Level 3: Country × Internet Consumption Covariance,cntry x netustm_log Cov,3,0.004166236766729204,0.00483834922067325,,3
+Level 3: Country × Internet Consumption Covariance,cntry x netustm_log Cov,4,,,,3
+Level 3: Internet Consumption Slope Variance,netustm_log Var,1,,,,4
+Level 3: Internet Consumption Slope Variance,netustm_log Var,2,,,,4
+Level 3: Internet Consumption Slope Variance,netustm_log Var,3,0.0011188003823696241,0.0011697181410111964,,4
+Level 3: Internet Consumption Slope Variance,netustm_log Var,4,,,,4
+Level 3: Country × News Consumption Covariance,cntry x nwspol_log Cov,1,,,,3
+Level 3: Country × News Consumption Covariance,cntry x nwspol_log Cov,2,,,,3
+Level 3: Country × News Consumption Covariance,cntry x nwspol_log Cov,3,0.004047260748762815,0.004873986010502648,,3
+Level 3: Country × News Consumption Covariance,cntry x nwspol_log Cov,4,,,,3
+Level 3: Internet × News Consumption Covariance,netustm_log x nwspol_log Cov,1,,,,3
+Level 3: Internet × News Consumption Covariance,netustm_log x nwspol_log Cov,2,,,,3
+Level 3: Internet × News Consumption Covariance,netustm_log x nwspol_log Cov,3,0.0008891318853487449,0.0008988415373132266,,3
+Level 3: Internet × News Consumption Covariance,netustm_log x nwspol_log Cov,4,,,,3
+Level 3: News Consumption Slope Variance,nwspol_log Var,1,,,,3
+Level 3: News Consumption Slope Variance,nwspol_log Var,2,,,,3
+Level 3: News Consumption Slope Variance,nwspol_log Var,3,0.0007165406846151529,0.0013776189774771625,,3
+Level 3: News Consumption Slope Variance,nwspol_log Var,4,,,,3
+Level 3: Year,essround Var,1,,,,3
+Level 3: Year,essround Var,2,,,,3
+Level 3: Year,essround Var,3,,,,3
+Level 3: Year,essround Var,4,0.005737459539870003,0.006575768380683162,,3
+Model Fit (Deviance),deviance,1,273612.9196406661,,,2
+Model Fit (Deviance),deviance,2,273537.0276087916,,,2
+Model Fit (Deviance),deviance,3,20938.754379727354,,,2
+Model Fit (Deviance),deviance,4,20936.51034286384,,,2

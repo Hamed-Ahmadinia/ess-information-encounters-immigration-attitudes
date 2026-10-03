@@ -1,0 +1,111 @@
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>formula</th>
+      <th>grouping</th>
+      <th>random_formula</th>
+      <th>n</th>
+      <th>groups</th>
+      <th>method</th>
+      <th>converged</th>
+      <th>scale</th>
+      <th>log_likelihood</th>
+      <th>deviance</th>
+      <th>seconds</th>
+      <th>warnings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Model_1</td>
+      <td>attitudes_immigration ~ self_transcendence + conservation + netustm_log + nwspol_log + age_category + rlgdgr + gndr + education_category + hincfel + lrscale</td>
+      <td>country_year</td>
+      <td>1</td>
+      <td>117752</td>
+      <td>72</td>
+      <td>REML</td>
+      <td>True</td>
+      <td>0.595590</td>
+      <td>-136806.459820</td>
+      <td>273612.919641</td>
+      <td>0.965622</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Model_2</td>
+      <td>attitudes_immigration ~ self_transcendence + conservation + netustm_log + nwspol_log + age_category + rlgdgr + gndr + education_category + hincfel + lrscale + C(manager_flipped)</td>
+      <td>country_year</td>
+      <td>1</td>
+      <td>117752</td>
+      <td>72</td>
+      <td>REML</td>
+      <td>True</td>
+      <td>0.595174</td>
+      <td>-136768.513804</td>
+      <td>273537.027609</td>
+      <td>0.894350</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Model_3</td>
+      <td>attitudes_immigration ~ self_transcendence + conservation + netustm_log + nwspol_log + age_category + rlgdgr + gndr + education_category + hincfel + lrscale + C(essround)</td>
+      <td>cntry</td>
+      <td>1 + netustm_log + nwspol_log</td>
+      <td>9263</td>
+      <td>18</td>
+      <td>REML</td>
+      <td>True</td>
+      <td>0.550929</td>
+      <td>-10469.377190</td>
+      <td>20938.754380</td>
+      <td>0.845665</td>
+      <td>Maximum Likelihood optimization failed to converge. Check mle_retvals | Retrying MixedLM optimization with lbfgs | The MLE may be on the boundary of the parameter space.</td>
+    </tr>
+    <tr>
+      <td>Model_4</td>
+      <td>attitudes_immigration ~ self_transcendence + conservation + netustm_log + nwspol_log + age_category + rlgdgr + gndr + education_category + hincfel + lrscale + C(cntry)</td>
+      <td>essround</td>
+      <td>1</td>
+      <td>9263</td>
+      <td>4</td>
+      <td>REML</td>
+      <td>True</td>
+      <td>0.552308</td>
+      <td>-10468.255171</td>
+      <td>20936.510343</td>
+      <td>0.162054</td>
+      <td>The MLE may be on the boundary of the parameter space.</td>
+    </tr>
+    <tr>
+      <td>Figure_3_model</td>
+      <td>attitudes_immigration ~ self_transcendence + conservation + netustm_log + nwspol_log + age_category + rlgdgr + gndr + education_category + hincfel + lrscale + C(essround)</td>
+      <td>cntry</td>
+      <td>1</td>
+      <td>117752</td>
+      <td>18</td>
+      <td>ML</td>
+      <td>True</td>
+      <td>0.599270</td>
+      <td>-136993.099701</td>
+      <td>273986.199402</td>
+      <td>0.844736</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Figures_4_5_model</td>
+      <td>attitudes_immigration ~ self_transcendence + conservation + netustm_log + nwspol_log + age_category + rlgdgr + gndr + education_category + hincfel + lrscale + C(essround)</td>
+      <td>cntry</td>
+      <td>1 + netustm_log + nwspol_log</td>
+      <td>117752</td>
+      <td>18</td>
+      <td>REML</td>
+      <td>True</td>
+      <td>0.597640</td>
+      <td>-136923.763304</td>
+      <td>273847.526609</td>
+      <td>3.650055</td>
+      <td>The MLE may be on the boundary of the parameter space.</td>
+    </tr>
+  </tbody>
+</table>

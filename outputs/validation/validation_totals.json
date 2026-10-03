@@ -1,0 +1,13 @@
+{
+  "checks": 1894,
+  "passed": 1686,
+  "not_passed": 208,
+  "statuses": {
+    "PASS": 1686,
+    "LABEL/REFERENCE-CATEGORY DIFFERENCE": 176,
+    "PUBLICATION TYPOGRAPHICAL DISCREPANCY": 24,
+    "UNRESOLVED": 6,
+    "ROUNDING ONLY": 2
+  },
+  "publication_checks": 1829
+}

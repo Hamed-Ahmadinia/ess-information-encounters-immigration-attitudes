@@ -1,0 +1,50 @@
+Variable,Model 1 Estimate,Model 1 SE,Model 2 Estimate,Model 2 SE,Model 3 Estimate,Model 3 SE,Model 4 Estimate,Model 4 SE
+Fixed Effect,,,,,,,,
+Intercept,0.332***,0.034,0.332***,0.033,0.235**,0.089,0.212**,0.080
+Sociodemographic Variables,,,,,,,,
+Age,-0.022***,0.001,-0.023***,0.001,0.007,0.006,0.007,0.006
+Gender,-0.004,0.005,-0.000,0.005,0.007,0.017,0.007,0.017
+Education,0.108***,0.002,0.106***,0.002,0.103***,0.007,0.103***,0.007
+Income,-0.145***,0.003,-0.143***,0.003,-0.150***,0.013,-0.149***,0.013
+Political Orientation,-0.077***,0.001,-0.077***,0.001,-0.081***,0.004,-0.081***,0.004
+Religiosity,0.011***,0.001,0.011***,0.001,0.002,0.003,0.002,0.003
+Values,,,,,,,,
+Self-Transcendence,0.183***,0.004,0.181***,0.004,0.214***,0.016,0.214***,0.016
+Conservation,-0.195***,0.005,-0.194***,0.005,-0.217***,0.015,-0.216***,0.015
+Media Consumption,,,,,,,,
+Internet Consumption,0.014***,0.002,0.014***,0.002,0.025*,0.011,0.028***,0.008
+News Consumption,0.057***,0.002,0.057***,0.002,0.051***,0.012,0.053***,0.010
+European Manager,—,—,0.079***,0.009,—,—,—,—
+Year Effects,,,,,,,,
+Y.2018,—,—,—,—,0.049*,0.023,—,—
+Y.2020,—,—,—,—,0.179***,0.022,—,—
+Y.2023,—,—,—,—,0.059**,0.023,—,—
+Country Effects,,,,,,,,
+Switzerland,—,—,—,—,—,—,0.189***,0.049
+Germany,—,—,—,—,—,—,0.002,0.043
+Spain,—,—,—,—,—,—,0.236***,0.049
+Finland,—,—,—,—,—,—,0.522***,0.054
+France,—,—,—,—,—,—,-0.091,0.048
+Great Britain,—,—,—,—,—,—,0.197***,0.045
+Hungary,—,—,—,—,—,—,-0.478***,0.057
+Ireland,—,—,—,—,—,—,0.384***,0.046
+Iceland,—,—,—,—,—,—,0.546***,0.050
+Italy,—,—,—,—,—,—,-0.308***,0.053
+Lithuania,—,—,—,—,—,—,-0.085,0.049
+Netherlands,—,—,—,—,—,—,0.023,0.047
+Norway,—,—,—,—,—,—,0.167***,0.048
+Poland,—,—,—,—,—,—,0.289***,0.044
+Portugal,—,—,—,—,—,—,0.251***,0.057
+Sweden,—,—,—,—,—,—,0.134**,0.049
+Slovenia,—,—,—,—,—,—,-0.239***,0.054
+Random Effects,,,,,,,,
+Level 1: Residual,0.596,—,0.595,—,0.551,—,0.552,—
+Level 2: Country-Year,0.065,0.014,0.065,0.014,—,—,—,—
+Level 3: Country Intercept,—,—,—,—,0.072,0.034,—,—
+Level 3: Country × Internet Consumption Covariance,—,—,—,—,0.004,0.005,—,—
+Level 3: Internet Consumption Slope Variance,—,—,—,—,0.0011,0.001,—,—
+Level 3: Country × News Consumption Covariance,—,—,—,—,0.004,0.005,—,—
+Level 3: Internet × News Consumption Covariance,—,—,—,—,0.001,0.001,—,—
+Level 3: News Consumption Slope Variance,—,—,—,—,0.001,0.001,—,—
+Level 3: Year,—,—,—,—,—,—,0.006,0.007
+Model Fit (Deviance),273612.92,—,273537.03,—,20938.75,—,20936.51,—
