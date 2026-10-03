@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: >-
+  If you use this reproducibility workflow, please cite this software record
+  and the associated journal article.
+title: >-
+  Reproducible Python workflow for multi-round European Social Survey analysis
+  of information encounters, human values, and immigration attitudes among
+  European managers
+type: software
+authors:
+  - family-names: Ahmadinia
+    given-names: Hamed
+    orcid: https://orcid.org/0000-0002-3505-8101
+    affiliation: University of Turku
+version: 1.0.0
+license: MIT
+repository-code: https://github.com/Hamed-Ahmadinia/ess-information-encounters-immigration-attitudes
+url: https://github.com/Hamed-Ahmadinia/ess-information-encounters-immigration-attitudes
+keywords:
+  - European Social Survey
+  - ESS
+  - information encounters
+  - immigration attitudes
+  - human values
+  - media engagement
+  - European managers
+  - multilevel modelling
+  - reproducibility
+  - Python
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Ahmadinia
+      given-names: Hamed
+      orcid: https://orcid.org/0000-0002-3505-8101
+      affiliation: University of Turku
+  title: >-
+    Shaping Immigration Attitudes: The Role of Human Values, Media Engagement
+    and Sociopolitical Events Among European Managers
+  journal: Nordic Journal of Migration Research
+  year: 2026
+  volume: 16
+  issue: 1
+  doi: 10.33134/njmr.964

@@ -1,0 +1,35 @@
+{
+  "title": "Reproducible Python workflow for multi-round European Social Survey analysis of information encounters, human values, and immigration attitudes among European managers",
+  "upload_type": "software",
+  "description": "Reproducibility materials for Hamed Ahmadinia's article \"Shaping Immigration Attitudes: The Role of Human Values, Media Engagement and Sociopolitical Events Among European Managers\" in the Nordic Journal of Migration Research. The workflow uses European Social Survey rounds 8–11 (2016–2023) to reproduce the data preparation, descriptive analyses, multilevel models, tables, figures, supplementary analyses, and publication-validation checks. Respondent-level ESS data are not redistributed with this record and must be obtained separately from the official European Social Survey data portal.",
+  "creators": [
+    {
+      "name": "Ahmadinia, Hamed",
+      "affiliation": "University of Turku",
+      "orcid": "0000-0002-3505-8101"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "European Social Survey",
+    "ESS",
+    "information encounters",
+    "immigration attitudes",
+    "human values",
+    "media engagement",
+    "European managers",
+    "multilevel modelling",
+    "reproducibility",
+    "Python"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.33134/njmr.964",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    }
+  ]
+}
